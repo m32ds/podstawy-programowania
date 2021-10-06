@@ -9,16 +9,11 @@
 
 auto main() -> int
 {
-    std::cout << "What's your name? ";
-
-    auto name = std::string{};
-    std::getline(std::cin, name);
-
-    if (name.empty()) {
-        std::cout << "OK, keep your secrets.\n";
-    } else {
-        std::cout << "Hello, " << name << "!\n";
-    }
-
+    std::string imie, nazwisko;
+    std::cout << "Jak masz na imie?\n";
+    std::cin >> imie;
+    std::cout << "Jak masz na nazwisko?\n";
+    std::cin >> nazwisko;
+    std::cout << "Czesc " << imie << " " << nazwisko << '\n';
     return 0;
 }

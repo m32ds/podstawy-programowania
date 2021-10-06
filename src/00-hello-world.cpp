@@ -1,4 +1,4 @@
-/*
+ /*
  * The very first program you should write in any new programming language.
  */
 
@@ -7,7 +7,6 @@
 
 auto main() -> int
 {
-    std::cout << "Hello, World\n";
-    std::cout << "xxx";
+    std::cout << "Czesc Mikolaj" << '\n';
     return 0;
 }
